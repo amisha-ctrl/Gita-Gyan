@@ -1,0 +1,22 @@
+.container::-webkit-scrollbar {
+  width: 8px; /* scrollbar width */
+}
+
+.container::-webkit-scrollbar-track {
+  background: transparent; /* track background */
+}
+
+.container::-webkit-scrollbar-thumb {
+  background-color: #ffc107; /* Bootstrap warning color */
+  border-radius: 10px;
+}
+
+.container::-webkit-scrollbar-thumb:hover {
+  background-color: #e0a800; /* darker on hover */
+}
+
+/* For Firefox */
+.container {
+  scrollbar-width: thin;
+  scrollbar-color: #ffc107 transparent;
+}
