@@ -83,6 +83,8 @@ function GetGita(){
               value={chapter}
               onChange={(e) => setChapter(e.target.value)}
               placeholder="Enter Chapter Number"
+              min={1}
+              max={18}
             />
             <button type="submit" className="btn btn-warning ps-3 pe-3">
               Get Chapter
